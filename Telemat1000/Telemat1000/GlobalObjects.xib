@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document propertyAccessControl="none" systemVersion="13A558" targetRuntime="iOS.CocoaTouch" toolsVersion="4488.2" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+	<dependencies>
+		<development defaultVersion="1536" identifier="iOS"/>
+		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+	</dependencies>
+	<objects>
+		<placeholder customClass="AppDelegate" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+			<connections/>
+		</placeholder>
+		<placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+	</objects>
+</document>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document initialViewController="3" propertyAccessControl="none" systemVersion="13A558" targetRuntime="iOS.CocoaTouch.iPad" toolsVersion="4488.2" type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0">
+	<dependencies>
+		<development defaultVersion="4200" identifier="xcode" version="5000"/>
+		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+	</dependencies>
+	<resources/>
+	<scenes>
+		<scene sceneID="1">
+			<objects>
+				<navigationController definesPresentationContext="YES" id="3" sceneMemberID="viewController" storyboardIdentifier="Scene1">
+					<connections>
+						<segue destination="8" id="54" kind="relationship" relationship="rootViewController"/>
+					</connections>
+					<navigationBar clipsSubviews="YES" contentMode="scaleToFill" id="4" key="navigationBar" opaque="NO" translucent="NO"/>
+					<tabBarItem id="5" key="tabBarItem" title="Telemat1000"/>
+				</navigationController>
+				<placeholder id="2" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder"/>
+			</objects>
+			<point key="canvasLocation" x="653" y="0"/>
+		</scene>
+		<scene sceneID="6">
+			<objects>
+				<customObject customClass="FilteredDataSource" id="20">
+					<connections>
+						<outlet destination="45" id="46" property="originalDataSource"/>
+					</connections>
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="filterKeyPath" type="string" value="sender"/>
+						<userDefinedRuntimeAttribute keyPath="searchesCaseSensitive" type="boolean" value="YES"/>
+						<userDefinedRuntimeAttribute keyPath="shouldFilterWithKeyPath" type="boolean" value="YES"/>
+						<userDefinedRuntimeAttribute keyPath="shouldFilterWithQuery" type="boolean" value="NO"/>
+						<userDefinedRuntimeAttribute keyPath="showsAllItemsOnEmptyQuery" type="boolean" value="NO"/>
+					</userDefinedRuntimeAttributes>
+				</customObject>
+				<customObject customClass="CollectionViewDelegate" id="22">
+					<connections>
+						<outlet destination="10" id="39" property="collectionView"/>
+						<outlet destination="40" id="41" property="dataProvider"/>
+					</connections>
+				</customObject>
+				<customObject customClass="MoviePlayerDataProvider" id="26"/>
+				<customObject customClass="WebViewDelegate" id="30">
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="openLinksInSafari" type="boolean" value="NO"/>
+						<userDefinedRuntimeAttribute keyPath="showActivityIndicator" type="boolean" value="NO"/>
+					</userDefinedRuntimeAttributes>
+				</customObject>
+				<customObject customClass="WebViewDataProvider" id="32"/>
+				<customObject customClass="CollectionViewDataProvider" id="40">
+					<connections>
+						<outlet destination="10" id="43" property="control"/>
+					</connections>
+				</customObject>
+				<customObject customClass="JSONDataSource" id="45" userLabel="TV-Daten">
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="dataString" type="string" value="{&quot;sender&quot;:[&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;ARD&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:ard.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/Programm/Sender?sender=28106&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://zdf1314-lh.akamaihd.net/i/de14_v1@392878/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;ZDF&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:zdf.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=ZDF&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://rbb_live-lh.akamaihd.net/i/rbb_berlin@108248/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;RBB&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:rbb.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;https://www.rbb-online.de/fernsehen/programm/#anchor_jetzt&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://delive.artestras.cshls.lldns.net/artestras/contrib/delive.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;Arte&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:arte.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=arte&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;3sat&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:3sat.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=3sat&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://zdf_hds_de-f.akamaihd.net/i/de09_v1@87012/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;Phoenix&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:phoenix.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=PHOENIX&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://zdf1314-lh.akamaihd.net/i/de13_v1@392877/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;ZDF neo&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:neo.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=ZDFneo&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;ZDF info&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:info.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=ZDFinfo&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://zdf1112-lh.akamaihd.net/i/de11_v1@392881/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;ZDF kultur&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:kultur.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=ZDF.kultur&quot;&#10;&#9;&#9;},&#9;&#9;&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;WDR&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:wdr.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=-28111&quot;&#10;&#9;&#9;},&#10;&#9;&#9;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;NDR&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:ndr.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=-28226&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://livestreams.br.de/i/bfsnord_germany@119898/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;BR&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:br.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=-28107&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;BR alpha&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:br-alpha.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=28487&quot;&#10;&#9;&#9;},&#9;&#9;&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://swrrp-lh.akamaihd.net/i/swrrp_live@196739/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;SWR&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:swr.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=28113&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://live1_hr-lh.akamaihd.net/i/hr_fernsehen@75910/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;HR&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:hr.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=28108&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://live2_sr-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;SR&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:sr.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=28486&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://www.metafilegenerator.de/DWelle/tv/ios/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;DW&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:dw.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.dw.com/de/programm/tv-programm/s-4765-9801&quot;&#10;&#9;&#9;},&#9;&#9;&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;Tagesschau24&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:tagesschau24.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=28721&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://kika_geo-lh.akamaihd.net/i/livetvkika_de@75114/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;KiKa&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:kika.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://www.zdf.de/epg/programm-4100.html?action=filter&amp;senderToFilter=KI.KA&quot;&#10;&#9;&#9;},&#10;&#9;&#9;{&#10;&#9;&#9;&quot;StreamURL&quot;:&quot;http://mdr_sachsen_hls-lh.akamaihd.net/i/livetvmdrsachsen_de@106902/master.m3u8&quot;,&#10;&#9;&#9;&quot;SenderName&quot;:&quot;MDR&quot;,&#10;&#9;&#9;&quot;Bild&quot;:&quot;file:mdr.png&quot;,&#10;&#9;&#9;&quot;ProgrammURL&quot;:&quot;http://programm.ard.de/programm/sender?sender=-28229&quot;&#10;&#9;&#9;}&#10;]}"/>
+						<userDefinedRuntimeAttribute keyPath="identifier" type="string" value="JSONDataSource10060"/>
+					</userDefinedRuntimeAttributes>
+				</customObject>
+				<customObject customClass="JavaScriptContainer" id="47">
+					<connections>
+						<outlet destination="45" id="49" property="inputDataSource"/>
+					</connections>
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="evaluatesImmediately" type="boolean" value="YES"/>
+						<userDefinedRuntimeAttribute keyPath="script" type="string" value="// Sucht die Sendernamen heraus&#10;&#10;return input.sender.map(function (sender) {&#10;&#9;return sender.SenderName;&#10;});&#10;"/>
+					</userDefinedRuntimeAttributes>
+				</customObject>
+				<customObject customClass="FilteredDataSource" id="51" userLabel="ausgewähler Sender">
+					<connections>
+						<outlet destination="20" id="53" property="originalDataSource"/>
+					</connections>
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="searchesCaseSensitive" type="boolean" value="NO"/>
+						<userDefinedRuntimeAttribute keyPath="shouldFilterWithKeyPath" type="boolean" value="YES"/>
+						<userDefinedRuntimeAttribute keyPath="shouldFilterWithQuery" type="boolean" value="NO"/>
+						<userDefinedRuntimeAttribute keyPath="showsAllItemsOnEmptyQuery" type="boolean" value="NO"/>
+					</userDefinedRuntimeAttributes>
+				</customObject>
+				<placeholder id="7" placeholderIdentifier="IBFirstResponder" sceneMemberID="firstResponder"/>
+				<viewController automaticallyAdjustsScrollViewInsets="NO" customClass="ViewControllerTelemat1000" hidesBottomBarWhenPushed="YES" id="8" sceneMemberID="viewController" title="Telemat1000" userLabel="Telemat1000">
+					<connections>
+						<outlet destination="10" id="11" property="collectionView"/>
+						<outlet destination="40" id="42" property="collectionViewDataProvider"/>
+						<outlet destination="22" id="38" property="collectionViewDelegate"/>
+						<outlet destination="9" id="34" property="contentView"/>
+						<outlet destination="20" id="44" property="filteredDataSource"/>
+						<outlet destination="51" id="52" property="filteredDataSource2"/>
+						<outlet destination="47" id="48" property="javaScriptContainer"/>
+						<outlet destination="45" id="50" property="jsonDataSource"/>
+						<outlet destination="26" id="37" property="moviePlayerDataProvider"/>
+						<outlet destination="24" id="25" property="moviePlayerView"/>
+						<outlet destination="28" id="29" property="webView"/>
+						<outlet destination="32" id="36" property="webViewDataProvider"/>
+					</connections>
+					<navigationItem id="35" key="navigationItem" title="Telemat1000"/>
+					<simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+					<userDefinedRuntimeAttributes>
+						<userDefinedRuntimeAttribute keyPath="originalSceneID" type="string" value="Scene1"/>
+					</userDefinedRuntimeAttributes>
+					<view alpha="1" contentMode="scaleToFill" id="9" key="view" tag="100" userInteractionEnabled="true" userLabel="Ansicht">
+						<autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+						<color alpha="1" blue="1" colorSpace="calibratedRGB" green="1" key="backgroundColor" red="1"/>
+						<rect height="704" key="frame" width="1024" x="0" y="0"/>
+						<subviews>
+							<collectionView alpha="1" clipsSubviews="YES" dataMode="prototypes" id="10" tag="101">
+								<autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+								<cells>
+									<collectionViewCell clipsSubviews="YES" customClass="Cell9849" id="13" reuseIdentifier="Cell">
+										<autoresizingMask key="autoresizingMask"/>
+										<color alpha="1" blue="0.941176" colorSpace="calibratedRGB" green="0.956863" key="backgroundColor" red="0.96"/>
+										<connections>
+											<outlet destination="16" id="17" property="imageView2"/>
+											<outlet destination="18" id="19" property="imageView3"/>
+											<outlet destination="8" id="14" property="viewController"/>
+										</connections>
+										<rect height="90" key="frame" width="134" x="0" y="0"/>
+										<view customClass="" id="15" key="contentView" tag="102" userInteractionEnabled="true">
+											<autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+											<rect height="90" key="frame" width="134" x="0" y="0"/>
+											<subviews>
+												<imageView clipsSubviews="YES" contentMode="scaleAspectFit" id="16" tag="103" userInteractionEnabled="NO">
+													<autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+													<color alpha="0" blue="0" colorSpace="calibratedRGB" green="0" key="backgroundColor" red="0"/>
+													<rect height="90" key="frame" width="134" x="0" y="0"/>
+													<userDefinedRuntimeAttributes/>
+												</imageView>
+												<imageView alpha="0.32" clipsSubviews="YES" contentMode="scaleAspectFit" highlightedImage="button.png" id="18" tag="104" userInteractionEnabled="NO">
+													<autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+													<color alpha="0" blue="0" colorSpace="calibratedRGB" green="0" key="backgroundColor" red="0"/>
+													<rect height="90" key="frame" width="134" x="0" y="0"/>
+													<userDefinedRuntimeAttributes/>
+												</imageView>
+											</subviews>
+										</view>
+									</collectionViewCell>
+								</cells>
+								<collectionViewFlowLayout id="12" key="collectionViewLayout" minimumInteritemSpacing="8" minimumLineSpacing="8" scrollDirection="vertical">
+									<inset key="sectionInset" maxX="8" maxY="8" minX="8" minY="8"/>
+									<size height="0" key="footerReferenceSize" width="0"/>
+									<size height="0" key="headerReferenceSize" width="0"/>
+									<size height="90" key="itemSize" width="134"/>
+								</collectionViewFlowLayout>
+								<color alpha="1" blue="0.941176" colorSpace="calibratedRGB" green="0.956863" key="backgroundColor" red="0.96"/>
+								<connections>
+									<outlet destination="20" id="21" property="dataSource"/>
+									<outlet destination="22" id="23" property="delegate"/>
+								</connections>
+								<rect height="704" key="frame" width="560" x="0" y="0"/>
+							</collectionView>
+							<view alpha="1" customClass="MoviePlayerView" id="24" tag="105" userInteractionEnabled="true">
+								<autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+								<color alpha="1" blue="0" colorSpace="calibratedRGB" green="0" key="backgroundColor" red="0"/>
+								<connections>
+									<outlet destination="26" id="27" property="dataProvider"/>
+								</connections>
+								<rect height="320" key="frame" width="464" x="560" y="0"/>
+								<userDefinedRuntimeAttributes>
+									<userDefinedRuntimeAttribute keyPath="autoplay" type="boolean" value="YES"/>
+									<userDefinedRuntimeAttribute keyPath="showsControls" type="boolean" value="YES"/>
+								</userDefinedRuntimeAttributes>
+							</view>
+							<webView alpha="1" clipsSubviews="YES" id="28" opaque="NO" tag="106" userInteractionEnabled="true">
+								<autoresizingMask flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+								<color alpha="0" blue="0" colorSpace="calibratedRGB" green="0" key="backgroundColor" red="0"/>
+								<connections>
+									<outlet destination="32" id="33" property="dataProvider"/>
+									<outlet destination="30" id="31" property="delegate"/>
+								</connections>
+								<dataDetectorType key="dataDetectorType"/>
+								<rect height="384" key="frame" width="464" x="560" y="320"/>
+								<userDefinedRuntimeAttributes/>
+							</webView>
+						</subviews>
+					</view>
+				</viewController>
+			</objects>
+			<point key="canvasLocation" x="1577" y="0"/>
+		</scene>
+	</scenes>
+	<simulatedMetricsContainer>
+		<simulatedOrientationMetrics key="orientation"/>
+		<simulatedScreenMetrics key="destination"/>
+		<simulatedStatusBarMetrics key="statusBar"/>
+	</simulatedMetricsContainer>
+</document>

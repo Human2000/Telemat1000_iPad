@@ -1,0 +1,1379 @@
+{
+	"projectName": "Telemat1000",
+	"files": [
+		"Telemat1000/com.compose-mac.UIImageView+URL",
+		"Telemat1000/com.compose-mac.NSStringPunycodeAdditions",
+		"Telemat1000/com.compose-mac.UICollectionViewSelectedItem",
+		"Telemat1000/com.compose-mac.CollectionViewDataProvider",
+		"Telemat1000/com.compose-mac.DataSourceBase",
+		"Telemat1000/com.compose-mac.MoviePlayerView",
+		"Telemat1000/com.compose-mac.FileURLHelper",
+		"Telemat1000/com.compose-mac.UIWebViewURLString",
+		"Telemat1000/com.compose-mac.WebViewDataProvider",
+		"Telemat1000/com.compose-mac.WebViewDelegate",
+		"Telemat1000/com.compose-mac.FilteredDataSource",
+		"Telemat1000/com.compose-mac.JavaScriptContainer",
+		"Telemat1000/com.compose-mac.JSONDataSource",
+		"Telemat1000/com.compose-mac.UIViewControllerSharedMethods",
+		"Telemat1000/com.compose-mac.BindingsHandler",
+		"Telemat1000/com.compose-mac.UINavigationBarDefaultTint",
+		"Telemat1000/com.compose-mac.SimpleScrollView",
+		"Telemat1000/com.compose-mac.LayoutResolver",
+		"Telemat1000/AppIcon76.png",
+		"Telemat1000/AppIcon76@2x.png",
+		"Telemat1000/Default-Portrait@2x.png",
+		"Telemat1000/Default-Landscape@2x.png",
+		"Telemat1000/br-alpha.png",
+		"Telemat1000/rbb.png",
+		"Telemat1000/info.png",
+		"Telemat1000/mdr.png",
+		"Telemat1000/neo.png",
+		"Telemat1000/br.png",
+		"Telemat1000/dw.png",
+		"Telemat1000/wdr.png",
+		"Telemat1000/arte.png",
+		"Telemat1000/kultur.png",
+		"Telemat1000/swr.png",
+		"Telemat1000/phoenix.png",
+		"Telemat1000/3sat.png",
+		"Telemat1000/ard.png",
+		"Telemat1000/auswahl.png",
+		"Telemat1000/kika.png",
+		"Telemat1000/ndr.png",
+		"Telemat1000/tagesschau24.png",
+		"Telemat1000/zdf.png",
+		"Telemat1000/ladehoch.png",
+		"Telemat1000/ladebreit.png",
+		"Telemat1000/button.png",
+		"Telemat1000/sr.png",
+		"Telemat1000/hr.png",
+		"Telemat1000/Telemat1000-Info.plist",
+		"Telemat1000/Main.storyboard",
+		"Telemat1000/GlobalObjects.xib",
+		"Telemat1000/AppDelegate.h",
+		"Telemat1000/AppDelegate.m",
+		"Telemat1000/ViewControllerTelemat1000.h",
+		"Telemat1000/ViewControllerTelemat1000.m",
+		"Telemat1000/Cell9849.h",
+		"Telemat1000/Cell9849.m",
+		"Telemat1000/de.lproj/InfoPlist.strings",
+		"Telemat1000.xcodeproj/project.pbxproj",
+		"Licences.html",
+		"Telemat1000/ComposeePayload"
+	],
+	"referencedFiles": [],
+	"buildFileItems": {
+		"ABE6158115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158015E534DA0062F537"
+		},
+		"ABE61514315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE61514215E534DA0062F537"
+		},
+		"ABE6158515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158415E534DA0062F537"
+		},
+		"ABE6158715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158615E534DA0062F537"
+		},
+		"ABE6158915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158815E534DA0062F537"
+		},
+		"ABE6158B15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158A15E534DA0062F537"
+		},
+		"ABE6158D15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158C15E534DA0062F537"
+		},
+		"ABE6158F15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6158E15E534DA0062F537"
+		},
+		"ABE6159115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159015E534DA0062F537"
+		},
+		"ABE6159315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159215E534DA0062F537"
+		},
+		"ABE6159515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159415E534DA0062F537"
+		},
+		"ABE6159715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159615E534DA0062F537"
+		},
+		"ABE6159915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159815E534DA0062F537"
+		},
+		"ABE6159B15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159A15E534DA0062F537"
+		},
+		"ABE6159D15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159C15E534DA0062F537"
+		},
+		"ABE6159F15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE6159E15E534DA0062F537"
+		},
+		"ABE615A115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A015E534DA0062F537"
+		},
+		"ABE615A315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A215E534DA0062F537"
+		},
+		"ABE615A515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A415E534DA0062F537"
+		},
+		"ABE615A715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A615E534DA0062F537"
+		},
+		"ABE615A915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615A815E534DA0062F537"
+		},
+		"ABE615AB15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615AA15E534DA0062F537"
+		},
+		"ABE615AD15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615AC15E534DA0062F537"
+		},
+		"ABE615AF15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615AE15E534DA0062F537"
+		},
+		"ABE615B115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615B015E534DA0062F537"
+		},
+		"ABE615B315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615B215E534DA0062F537"
+		},
+		"ABE615B515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615B415E534DA0062F537"
+		},
+		"ABE615B715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615B615E534DA0062F537"
+		},
+		"ABE615B915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615B815E534DA0062F537"
+		},
+		"ABE615BB15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615BA15E534DA0062F537"
+		},
+		"ABE615BD15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615BC15E534DA0062F537"
+		},
+		"ABE615BF15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615BE15E534DA0062F537"
+		},
+		"ABE615C115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615C015E534DA0062F537"
+		},
+		"ABE615C315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615C215E534DA0062F537"
+		},
+		"ABE615C515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615C415E534DA0062F537"
+		},
+		"ABE615C715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615C615E534DA0062F537"
+		},
+		"ABE615C915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615C815E534DA0062F537"
+		},
+		"ABE615CB15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615CA15E534DA0062F537"
+		},
+		"ABE615CD15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615CC15E534DA0062F537"
+		},
+		"ABE615CF15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615CE15E534DA0062F537"
+		},
+		"ABE615D115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615D015E534DA0062F537"
+		},
+		"ABE615D315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615D215E534DA0062F537"
+		},
+		"ABE615D515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615D415E534DA0062F537"
+		},
+		"ABE615D715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615D615E534DA0062F537"
+		},
+		"ABE615D915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615D815E534DA0062F537"
+		},
+		"ABE615DB15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615DA15E534DA0062F537"
+		},
+		"ABE615DD15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615DC15E534DA0062F537"
+		},
+		"ABE615DF15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615DE15E534DA0062F537"
+		},
+		"ABE615E115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615E015E534DA0062F537"
+		},
+		"ABE615E315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615E215E534DA0062F537"
+		},
+		"ABE615E515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615E415E534DA0062F537"
+		},
+		"ABE615E715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615E615E534DA0062F537"
+		},
+		"ABE615E915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615E815E534DA0062F537"
+		},
+		"ABE615EB15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615EA15E534DA0062F537"
+		},
+		"ABE615ED15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615EC15E534DA0062F537"
+		},
+		"ABE615EF15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615EE15E534DA0062F537"
+		},
+		"ABE615F115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615F015E534DA0062F537"
+		},
+		"ABE615F315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615F215E534DA0062F537"
+		},
+		"ABE615F515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615F415E534DA0062F537"
+		},
+		"ABE615F715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615F615E534DA0062F537"
+		},
+		"ABE615F915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615F815E534DA0062F537"
+		},
+		"ABE615FB15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615FA15E534DA0062F537"
+		},
+		"ABE615FD15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615FC15E534DA0062F537"
+		},
+		"ABE615FF15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE615FE15E534DA0062F537"
+		},
+		"ABE61510115E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE61510015E534DA0062F537"
+		},
+		"ABE61510315E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE61510215E534DA0062F537"
+		},
+		"ABE61510515E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE61510415E534DA0062F537"
+		},
+		"ABE61510715E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE61510615E534DA0062F537"
+		},
+		"ABE61510915E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE61510815E534DA0062F537"
+		},
+		"ABE61510B15E534DA0062F537": {
+			"isa": "PBXBuildFile",
+			"fileRef": "ABE61510A15E534DA0062F537"
+		}
+	},
+	"fileReferenceItems": {
+		"ABE61510C15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "ViewControllerTelemat1000.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>"
+		},
+		"ABE61514415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "Cell9849.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>"
+		},
+		"ABE61510E15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/UIImageView+URL.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "UIImageView+URL.h"
+		},
+		"ABE61510F15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.NSStringPunycodeAdditions/NSStringPunycodeAdditions.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "NSStringPunycodeAdditions.h"
+		},
+		"ABE61511015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UICollectionViewSelectedItem/CollectionViewDelegate.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "CollectionViewDelegate.h"
+		},
+		"ABE61511115E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.CollectionViewDataProvider/CollectionViewDataProvider.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "CollectionViewDataProvider.h"
+		},
+		"ABE61511215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.DataSourceBase/DataSourceBase.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "DataSourceBase.h"
+		},
+		"ABE61511315E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.MoviePlayerView/MoviePlayerView.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "MoviePlayerView.h"
+		},
+		"ABE61511415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.FileURLHelper/FileURLHelper.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "FileURLHelper.h"
+		},
+		"ABE61511515E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.WebViewDataProvider/WebViewDataProvider.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "WebViewDataProvider.h"
+		},
+		"ABE61511615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.FilteredDataSource/FilteredDataSource.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "FilteredDataSource.h"
+		},
+		"ABE61511715E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.JavaScriptContainer/JavaScriptContainer.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "JavaScriptContainer.h"
+		},
+		"ABE61511815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.JSONDataSource/JSONDataSource.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "JSONDataSource.h"
+		},
+		"ABE61511915E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIViewControllerSharedMethods/UIViewControllerSharedMethods.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "UIViewControllerSharedMethods.h"
+		},
+		"ABE61511A15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.BindingsHandler/BindingsHandler.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "BindingsHandler.h"
+		},
+		"ABE61511B15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UINavigationBarDefaultTint/UINavigationBar+DefaultTint.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "UINavigationBar+DefaultTint.h"
+		},
+		"ABE61511C15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.SimpleScrollView/SimpleScrollView.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "SimpleScrollView.h"
+		},
+		"ABE61511D15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.LayoutResolver/LayoutResolver.h",
+			"lastKnownFileType": "sourcecode.c.h",
+			"sourceTree": "<group>",
+			"name": "LayoutResolver.h"
+		},
+		"ABE6158015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "ViewControllerTelemat1000.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>"
+		},
+		"ABE61514215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "Cell9849.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>"
+		},
+		"ABE6158415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/UIImageView+URL.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIImageView+URL.m"
+		},
+		"ABE6158615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/NSData+ImageContentType.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "NSData+ImageContentType.m"
+		},
+		"ABE6158815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/SDImageCache.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SDImageCache.m"
+		},
+		"ABE6158A15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/SDWebImageCompat.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SDWebImageCompat.m"
+		},
+		"ABE6158C15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/SDWebImageDecoder.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SDWebImageDecoder.m"
+		},
+		"ABE6158E15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/SDWebImageDownloader.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SDWebImageDownloader.m"
+		},
+		"ABE6159015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/SDWebImageDownloaderOperation.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SDWebImageDownloaderOperation.m"
+		},
+		"ABE6159215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/SDWebImageManager.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SDWebImageManager.m"
+		},
+		"ABE6159415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/SDWebImagePrefetcher.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SDWebImagePrefetcher.m"
+		},
+		"ABE6159615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/UIButton+WebCache.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIButton+WebCache.m"
+		},
+		"ABE6159815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/UIImage+GIF.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIImage+GIF.m"
+		},
+		"ABE6159A15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/UIImage+MultiFormat.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIImage+MultiFormat.m"
+		},
+		"ABE6159C15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/UIImage+WebP.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIImage+WebP.m"
+		},
+		"ABE6159E15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/UIImageView+WebCache.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIImageView+WebCache.m"
+		},
+		"ABE615A015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIImageView+URL/SDWebImage/UIView+WebCacheOperation.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIView+WebCacheOperation.m"
+		},
+		"ABE615A215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.NSStringPunycodeAdditions/NSStringPunycodeAdditions.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "NSStringPunycodeAdditions.m"
+		},
+		"ABE615A415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UICollectionViewSelectedItem/UICollectionView+SelectedItemIndex.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UICollectionView+SelectedItemIndex.m"
+		},
+		"ABE615A615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UICollectionViewSelectedItem/CollectionViewDelegate.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "CollectionViewDelegate.m"
+		},
+		"ABE615A815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.CollectionViewDataProvider/CollectionViewDataProvider.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "CollectionViewDataProvider.m"
+		},
+		"ABE615AA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.DataSourceBase/DataSourceBase.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "DataSourceBase.m"
+		},
+		"ABE615AC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.MoviePlayerView/MoviePlayerView.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "MoviePlayerView.m"
+		},
+		"ABE615AE15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.MoviePlayerView/MoviePlayerDataProvider.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "MoviePlayerDataProvider.m"
+		},
+		"ABE615B015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.FileURLHelper/FileURLHelper.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "FileURLHelper.m"
+		},
+		"ABE615B215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIWebViewURLString/UIWebView+URLString.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIWebView+URLString.m"
+		},
+		"ABE615B415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.WebViewDataProvider/WebViewDataProvider.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "WebViewDataProvider.m"
+		},
+		"ABE615B615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.WebViewDelegate/WebViewDelegate.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "WebViewDelegate.m"
+		},
+		"ABE615B815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.FilteredDataSource/FilteredDataSource.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "FilteredDataSource.m"
+		},
+		"ABE615BA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.JavaScriptContainer/JavaScriptContainer.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "JavaScriptContainer.m"
+		},
+		"ABE615BC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.JSONDataSource/JSONDataSource.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "JSONDataSource.m"
+		},
+		"ABE615BE15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UIViewControllerSharedMethods/UIViewControllerSharedMethods.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIViewControllerSharedMethods.m"
+		},
+		"ABE615C015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.BindingsHandler/BindingsHandler.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "BindingsHandler.m"
+		},
+		"ABE615C215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.UINavigationBarDefaultTint/UINavigationBar+DefaultTint.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UINavigationBar+DefaultTint.m"
+		},
+		"ABE615C415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.SimpleScrollView/SimpleScrollView.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "SimpleScrollView.m"
+		},
+		"ABE615C615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.LayoutResolver/LayoutResolver.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "LayoutResolver.m"
+		},
+		"ABE615C815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"path": "com.compose-mac.LayoutResolver/UIView+FindLowestSubview.m",
+			"lastKnownFileType": "sourcecode.c.m",
+			"sourceTree": "<group>",
+			"name": "UIView+FindLowestSubview.m"
+		},
+		"ABE615CA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "AppIcon76.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615CC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "AppIcon76@2x.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615CE15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "Default-Portrait@2x.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615D015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "Default-Landscape@2x.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615D215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "br-alpha.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615D415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "rbb.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615D615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "info.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615D815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "mdr.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615DA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "neo.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615DC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "br.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615DE15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "dw.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615E015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "wdr.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615E215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "arte.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615E415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "kultur.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615E615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "swr.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615E815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "phoenix.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615EA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "3sat.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615EC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "ard.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615EE15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "auswahl.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615F015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "kika.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615F215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "ndr.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615F415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "tagesschau24.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615F615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "zdf.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615F815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "ladehoch.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615FA15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "ladebreit.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615FC15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "button.png",
+			"sourceTree": "<group>"
+		},
+		"ABE615FE15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "sr.png",
+			"sourceTree": "<group>"
+		},
+		"ABE61510015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "image.png",
+			"path": "hr.png",
+			"sourceTree": "<group>"
+		},
+		"ABE61510215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "wrapper.framework",
+			"name": "CoreGraphics.framework",
+			"path": "System/Library/Frameworks/CoreGraphics.framework",
+			"sourceTree": "SDKROOT"
+		},
+		"ABE61510415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "wrapper.framework",
+			"name": "ImageIO.framework",
+			"path": "System/Library/Frameworks/ImageIO.framework",
+			"sourceTree": "SDKROOT"
+		},
+		"ABE61510615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "wrapper.framework",
+			"name": "MediaPlayer.framework",
+			"path": "System/Library/Frameworks/MediaPlayer.framework",
+			"sourceTree": "SDKROOT"
+		},
+		"ABE61511E15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "ar",
+			"path": "ar.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61511F15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "bn",
+			"path": "bn.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512015E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "de",
+			"path": "de.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512115E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "en",
+			"path": "en.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512215E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "es",
+			"path": "es.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512315E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "fr",
+			"path": "fr.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512415E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "hi",
+			"path": "hi.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512515E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "ja",
+			"path": "ja.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512615E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "pt",
+			"path": "pt.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512715E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "zh",
+			"path": "zh.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512815E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "it",
+			"path": "it.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512915E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "nl",
+			"path": "nl.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512A15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "pl",
+			"path": "pl.lproj/DataSourceBaseLocalized.strings",
+			"sourceTree": "<group>"
+		},
+		"ABE61512B15E534DA0062F537": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.strings",
+			"name": "de",
+			"path": "de.lproj/InfoPlist.strings",
+			"sourceTree": "<group>"
+		}
+	},
+	"projectGroupItems": [
+		"ABE615CA15E534DA0062F537",
+		"ABE615CC15E534DA0062F537",
+		"ABE615CE15E534DA0062F537",
+		"ABE615D015E534DA0062F537",
+		"ABE615D215E534DA0062F537",
+		"ABE615D415E534DA0062F537",
+		"ABE615D615E534DA0062F537",
+		"ABE615D815E534DA0062F537",
+		"ABE615DA15E534DA0062F537",
+		"ABE615DC15E534DA0062F537",
+		"ABE615DE15E534DA0062F537",
+		"ABE615E015E534DA0062F537",
+		"ABE615E215E534DA0062F537",
+		"ABE615E415E534DA0062F537",
+		"ABE615E615E534DA0062F537",
+		"ABE615E815E534DA0062F537",
+		"ABE615EA15E534DA0062F537",
+		"ABE615EC15E534DA0062F537",
+		"ABE615EE15E534DA0062F537",
+		"ABE615F015E534DA0062F537",
+		"ABE615F215E534DA0062F537",
+		"ABE615F415E534DA0062F537",
+		"ABE615F615E534DA0062F537",
+		"ABE615F815E534DA0062F537",
+		"ABE615FA15E534DA0062F537",
+		"ABE615FC15E534DA0062F537",
+		"ABE615FE15E534DA0062F537",
+		"ABE61510015E534DA0062F537",
+		"ABE61510C15E534DA0062F537",
+		"ABE6158015E534DA0062F537",
+		"ABE61514415E534DA0062F537",
+		"ABE61514215E534DA0062F537"
+	],
+	"supportingFilesGroupItems": [
+		"ABE61510A15E534DA0062F537"
+	],
+	"frameworksGroupItems": [
+		"ABE61510215E534DA0062F537",
+		"ABE61510415E534DA0062F537",
+		"ABE61510615E534DA0062F537"
+	],
+	"otherGroups": {
+		"ABE61513E15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE61512C15E534DA0062F537",
+				"ABE61512D15E534DA0062F537",
+				"ABE61512E15E534DA0062F537",
+				"ABE61512F15E534DA0062F537",
+				"ABE61513015E534DA0062F537",
+				"ABE61513115E534DA0062F537",
+				"ABE61513215E534DA0062F537",
+				"ABE61513315E534DA0062F537",
+				"ABE61513415E534DA0062F537",
+				"ABE61513515E534DA0062F537",
+				"ABE61513615E534DA0062F537",
+				"ABE61513715E534DA0062F537",
+				"ABE61513815E534DA0062F537",
+				"ABE61513915E534DA0062F537",
+				"ABE61513A15E534DA0062F537",
+				"ABE61513B15E534DA0062F537",
+				"ABE61513C15E534DA0062F537",
+				"ABE61513D15E534DA0062F537"
+			],
+			"name": "Plug-ins",
+			"path": "Telemat1000",
+			"sourceTree": "<group>"
+		}
+	},
+	"pluginGroups": {
+		"ABE61512C15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE6158415E534DA0062F537",
+				"ABE6158615E534DA0062F537",
+				"ABE6158815E534DA0062F537",
+				"ABE6158A15E534DA0062F537",
+				"ABE6158C15E534DA0062F537",
+				"ABE6158E15E534DA0062F537",
+				"ABE6159015E534DA0062F537",
+				"ABE6159215E534DA0062F537",
+				"ABE6159415E534DA0062F537",
+				"ABE6159615E534DA0062F537",
+				"ABE6159815E534DA0062F537",
+				"ABE6159A15E534DA0062F537",
+				"ABE6159C15E534DA0062F537",
+				"ABE6159E15E534DA0062F537",
+				"ABE615A015E534DA0062F537",
+				"ABE61510E15E534DA0062F537"
+			],
+			"name": "com.compose-mac.UIImageView+URL",
+			"sourceTree": "<group>"
+		},
+		"ABE61512D15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615A215E534DA0062F537",
+				"ABE61510F15E534DA0062F537"
+			],
+			"name": "com.compose-mac.NSStringPunycodeAdditions",
+			"sourceTree": "<group>"
+		},
+		"ABE61512E15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615A415E534DA0062F537",
+				"ABE615A615E534DA0062F537",
+				"ABE61511015E534DA0062F537"
+			],
+			"name": "com.compose-mac.UICollectionViewSelectedItem",
+			"sourceTree": "<group>"
+		},
+		"ABE61512F15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615A815E534DA0062F537",
+				"ABE61511115E534DA0062F537"
+			],
+			"name": "com.compose-mac.CollectionViewDataProvider",
+			"sourceTree": "<group>"
+		},
+		"ABE61513015E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615AA15E534DA0062F537",
+				"ABE61511215E534DA0062F537",
+				"ABE61510815E534DA0062F537"
+			],
+			"name": "com.compose-mac.DataSourceBase",
+			"sourceTree": "<group>"
+		},
+		"ABE61513115E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615AC15E534DA0062F537",
+				"ABE615AE15E534DA0062F537",
+				"ABE61511315E534DA0062F537"
+			],
+			"name": "com.compose-mac.MoviePlayerView",
+			"sourceTree": "<group>"
+		},
+		"ABE61513215E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615B015E534DA0062F537",
+				"ABE61511415E534DA0062F537"
+			],
+			"name": "com.compose-mac.FileURLHelper",
+			"sourceTree": "<group>"
+		},
+		"ABE61513315E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615B215E534DA0062F537"
+			],
+			"name": "com.compose-mac.UIWebViewURLString",
+			"sourceTree": "<group>"
+		},
+		"ABE61513415E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615B415E534DA0062F537",
+				"ABE61511515E534DA0062F537"
+			],
+			"name": "com.compose-mac.WebViewDataProvider",
+			"sourceTree": "<group>"
+		},
+		"ABE61513515E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615B615E534DA0062F537"
+			],
+			"name": "com.compose-mac.WebViewDelegate",
+			"sourceTree": "<group>"
+		},
+		"ABE61513615E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615B815E534DA0062F537",
+				"ABE61511615E534DA0062F537"
+			],
+			"name": "com.compose-mac.FilteredDataSource",
+			"sourceTree": "<group>"
+		},
+		"ABE61513715E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615BA15E534DA0062F537",
+				"ABE61511715E534DA0062F537"
+			],
+			"name": "com.compose-mac.JavaScriptContainer",
+			"sourceTree": "<group>"
+		},
+		"ABE61513815E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615BC15E534DA0062F537",
+				"ABE61511815E534DA0062F537"
+			],
+			"name": "com.compose-mac.JSONDataSource",
+			"sourceTree": "<group>"
+		},
+		"ABE61513915E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615BE15E534DA0062F537",
+				"ABE61511915E534DA0062F537"
+			],
+			"name": "com.compose-mac.UIViewControllerSharedMethods",
+			"sourceTree": "<group>"
+		},
+		"ABE61513A15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615C015E534DA0062F537",
+				"ABE61511A15E534DA0062F537"
+			],
+			"name": "com.compose-mac.BindingsHandler",
+			"sourceTree": "<group>"
+		},
+		"ABE61513B15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615C215E534DA0062F537",
+				"ABE61511B15E534DA0062F537"
+			],
+			"name": "com.compose-mac.UINavigationBarDefaultTint",
+			"sourceTree": "<group>"
+		},
+		"ABE61513C15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615C415E534DA0062F537",
+				"ABE61511C15E534DA0062F537"
+			],
+			"name": "com.compose-mac.SimpleScrollView",
+			"sourceTree": "<group>"
+		},
+		"ABE61513D15E534DA0062F537": {
+			"isa": "PBXGroup",
+			"children": [
+				"ABE615C615E534DA0062F537",
+				"ABE615C815E534DA0062F537",
+				"ABE61511D15E534DA0062F537"
+			],
+			"name": "com.compose-mac.LayoutResolver",
+			"sourceTree": "<group>"
+		}
+	},
+	"otherGroupsInRootList": [
+		"ABE61513E15E534DA0062F537"
+	],
+	"sourcesBuildPhaseItems": [
+		"ABE6158115E534DA0062F537",
+		"ABE61514315E534DA0062F537",
+		"ABE6158515E534DA0062F537",
+		"ABE6158715E534DA0062F537",
+		"ABE6158915E534DA0062F537",
+		"ABE6158B15E534DA0062F537",
+		"ABE6158D15E534DA0062F537",
+		"ABE6158F15E534DA0062F537",
+		"ABE6159115E534DA0062F537",
+		"ABE6159315E534DA0062F537",
+		"ABE6159515E534DA0062F537",
+		"ABE6159715E534DA0062F537",
+		"ABE6159915E534DA0062F537",
+		"ABE6159B15E534DA0062F537",
+		"ABE6159D15E534DA0062F537",
+		"ABE6159F15E534DA0062F537",
+		"ABE615A115E534DA0062F537",
+		"ABE615A315E534DA0062F537",
+		"ABE615A515E534DA0062F537",
+		"ABE615A715E534DA0062F537",
+		"ABE615A915E534DA0062F537",
+		"ABE615AB15E534DA0062F537",
+		"ABE615AD15E534DA0062F537",
+		"ABE615AF15E534DA0062F537",
+		"ABE615B115E534DA0062F537",
+		"ABE615B315E534DA0062F537",
+		"ABE615B515E534DA0062F537",
+		"ABE615B715E534DA0062F537",
+		"ABE615B915E534DA0062F537",
+		"ABE615BB15E534DA0062F537",
+		"ABE615BD15E534DA0062F537",
+		"ABE615BF15E534DA0062F537",
+		"ABE615C115E534DA0062F537",
+		"ABE615C315E534DA0062F537",
+		"ABE615C515E534DA0062F537",
+		"ABE615C715E534DA0062F537",
+		"ABE615C915E534DA0062F537"
+	],
+	"resourcesBuildPhaseItems": [
+		"ABE615CB15E534DA0062F537",
+		"ABE615CD15E534DA0062F537",
+		"ABE615CF15E534DA0062F537",
+		"ABE615D115E534DA0062F537",
+		"ABE615D315E534DA0062F537",
+		"ABE615D515E534DA0062F537",
+		"ABE615D715E534DA0062F537",
+		"ABE615D915E534DA0062F537",
+		"ABE615DB15E534DA0062F537",
+		"ABE615DD15E534DA0062F537",
+		"ABE615DF15E534DA0062F537",
+		"ABE615E115E534DA0062F537",
+		"ABE615E315E534DA0062F537",
+		"ABE615E515E534DA0062F537",
+		"ABE615E715E534DA0062F537",
+		"ABE615E915E534DA0062F537",
+		"ABE615EB15E534DA0062F537",
+		"ABE615ED15E534DA0062F537",
+		"ABE615EF15E534DA0062F537",
+		"ABE615F115E534DA0062F537",
+		"ABE615F315E534DA0062F537",
+		"ABE615F515E534DA0062F537",
+		"ABE615F715E534DA0062F537",
+		"ABE615F915E534DA0062F537",
+		"ABE615FB15E534DA0062F537",
+		"ABE615FD15E534DA0062F537",
+		"ABE615FF15E534DA0062F537",
+		"ABE61510115E534DA0062F537",
+		"ABE61510915E534DA0062F537",
+		"ABE61510B15E534DA0062F537"
+	],
+	"frameworksBuildPhaseItems": [
+		"ABE61510315E534DA0062F537",
+		"ABE61510515E534DA0062F537",
+		"ABE61510715E534DA0062F537"
+	],
+	"variantGroupItems": {
+		"ABE61510815E534DA0062F537": {
+			"isa": "PBXVariantGroup",
+			"children": [
+				"ABE61511E15E534DA0062F537",
+				"ABE61511F15E534DA0062F537",
+				"ABE61512015E534DA0062F537",
+				"ABE61512115E534DA0062F537",
+				"ABE61512215E534DA0062F537",
+				"ABE61512315E534DA0062F537",
+				"ABE61512415E534DA0062F537",
+				"ABE61512515E534DA0062F537",
+				"ABE61512615E534DA0062F537",
+				"ABE61512715E534DA0062F537",
+				"ABE61512815E534DA0062F537",
+				"ABE61512915E534DA0062F537",
+				"ABE61512A15E534DA0062F537"
+			],
+			"name": "DataSourceBaseLocalized.strings",
+			"path": "com.compose-mac.DataSourceBase",
+			"sourceTree": "<group>"
+		},
+		"ABE61510A15E534DA0062F537": {
+			"isa": "PBXVariantGroup",
+			"children": [
+				"ABE61512B15E534DA0062F537"
+			],
+			"name": "InfoPlist.strings",
+			"path": "",
+			"sourceTree": "<group>"
+		}
+	},
+	"librarySearchPaths": []
+}
